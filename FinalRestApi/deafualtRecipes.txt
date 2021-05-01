@@ -1,0 +1,52 @@
+private recipes: Recipe[] = [
+    new Recipe(
+      'Hot cocoa',
+      ' This is really easy to make and delicious with marshmellows and whipped cream.',
+      'https://images.immediate.co.uk/production/volatile/sites/30/2020/10/Classic-Homemade-Hot-Chocolate-7d8353b.jpg?quality=90&resize=960,872',
+      [
+        new Ingredient('Coca Powder', 1),
+        new Ingredient('Sugar', 1),
+        new Ingredient('Salt', 1),
+        new Ingredient('Milk', 1)
+      ]
+      ),
+
+
+    new Recipe(
+      'Soup',
+      ' This is a easy to make. Takes about 5 minutes. Best served with croutons.',
+      'https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/The-Best-Ever-Tomato-Soup_EXPS_THSO18_222724_D03_06_5b.jpg',
+      [
+        new Ingredient('Soup Mix', 1),
+        new Ingredient('Water ', 1)
+      ]),
+
+
+    new Recipe(
+      'Chai',
+      ' This is a really nice indian chai and is really good with indian rusk.',
+      'data:image/jpeg;base64,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',
+      [
+        new Ingredient('Water ', 2),
+        new Ingredient('Ginger ', 3),
+        new Ingredient('Cloves ', 3),
+        new Ingredient('Tea Leaves ', 1),
+        new Ingredient('Milk ', 1),
+        new Ingredient('Sugar ', 5),
+      ]),
+
+
+    new Recipe(
+      'Spaggeti',
+      ' This is a really tasty cheesy and awesome. Takes about 30 minutes.',
+      'https://www.goya.com/media/4173/creole-spaghetti.jpg?quality=1000',
+      [
+        new Ingredient('Spaggeti ', 2),
+        new Ingredient('Mozzerela Cheeze ', 2),
+        new Ingredient('Ketchup ', 3),
+        new Ingredient('Oregoano ', 1),
+        new Ingredient('Pasta sauce ', 1),
+        new Ingredient('Salt', 1),
+        new Ingredient('Pepper', 1)
+      ]),
+  ];
